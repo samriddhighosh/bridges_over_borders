@@ -68,12 +68,12 @@ export default function Home() {
             </div>
         </div>
       </div>
-      <div className="justify-center items-center mx-auto px-2 lg:px-20 py-24 text-center">
+      <div className="justify-center items-center mx-auto lg:px-20 py-24 text-center">
         {/* <p className="font-abhayaLibre text-[58px] leading-[66px] font-medium w-3/4 mx-auto tracking-tight">Who are we?</p>
         <p className="text-[17px] text-black w-3/5 mx-auto"> We are a student-led nonprofit organization dedicated to empowering immigrants and newcomers in the U.S., through mentorship, skill-building, and community support. </p> */}
-        <p className="text-[28px] text-black w-4/5 mx-auto"> We are a student-led nonprofit organization dedicated to empowering immigrants and newcomers in the U.S., through mentorship, skill-building, and community support. </p>
+        <p className="text-[28px] text-black w-8/12 lg:w-4/5 mx-auto"> We are a student-led nonprofit organization dedicated to empowering immigrants and newcomers in the U.S., through mentorship, skill-building, and community support. </p>
         <div>
-          <div className="text-center justify-center items-center flex pt-24 mx-auto gap-16 ">
+          <div className="text-center justify-center items-center flex flex-col pt-24 mx-auto gap-16 ">
             <div className="size-52 text-center flex flex-col gap-4 p-6 bg-orange-100 border-orange-900 border">
               <ArchiveRestore className="mx-auto size-[45px] bg-white"/>
               <div>
@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-10">
           <div className="lg:flex gap-10 justify-center items-center">
-            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-12">
+            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-2 lg:px-12">
               <div className="bg-orange-100 size-12 p-3 mb-4 rounded-full">
                 <Languages className="justify-self-center "/>
               </div>
@@ -116,7 +116,7 @@ export default function Home() {
               <h4 className="text-[20px] font-semibold pb-1">Language-Friendly Guidance</h4>
               <p className="text-[15px]">We provide clear, multilingual-friendly online guides and resources that help immigrants understand U.S. cultures.</p>
             </div>
-            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-12">
+            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-2 lg:px-12">
               <div className="bg-orange-100 size-12 p-3 mb-4 rounded-full">
                 <HeartPlus className="justify-self-center "/>
               </div>
@@ -124,7 +124,7 @@ export default function Home() {
               <h4 className="text-[20px] font-semibold pb-1">Personalized One-on-One Support</h4>
               <p className="text-[15px]">Immigrants can book sessions with trained volunteers to ask questions and receive guidance.</p>
             </div>
-            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-12">
+            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-2 lg:px-12">
               <div className="bg-orange-100 size-12 p-3 mb-4 rounded-full">
                 <ArchiveRestore className="justify-self-center "/>
               </div>
@@ -134,7 +134,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:flex gap-10">
-            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-12">
+            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-2 lg:px-12">
               <div className="bg-orange-100 size-12 p-3 mb-4 rounded-full">
                 <ArchiveRestore className="justify-self-center "/>
               </div>
@@ -142,7 +142,7 @@ export default function Home() {
               <h4 className="text-[20px] font-semibold pb-1">Supportive Community</h4>
               <p className="text-[15px]">Community of newcomers where people can form friendships, share experiences, and support one another.</p>
             </div>
-            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-12">
+            <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-2 lg:px-12">
               <div className="bg-orange-100 size-12 p-3 mb-4 rounded-full">
                 <ArchiveRestore className="justify-self-center "/>
               </div>
@@ -150,7 +150,7 @@ export default function Home() {
               <h4 className="text-[20px] font-semibold pb-1">Empowerment Through Knowledge</h4>
               <p className="text-[15px]">By combining resources and community, we help immigrants feel more confident navigating life in the U.S.</p>
             </div>
-           <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-12">
+           <div className="size-[300px] hover:bg-orange-100 flex flex-col justify-center items-left px-2 lg:px-12">
               <div className="bg-orange-100 size-12 p-3 mb-4 rounded-full">
                 <ArchiveRestore className="justify-self-center "/>
               </div>
