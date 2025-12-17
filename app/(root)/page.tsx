@@ -9,8 +9,8 @@ export default function Home() {
     <div className="flex flex-col gap-12 justify-center items-center mx-auto font-onest bg-white text-black">
       <Navbar/>
       <div className="text-center items-center w-3/4 py-32 bg-white">
-        <h1 className="font-abhayaLibre text-[72px] leading-[66px] pb-3 text-[#1E2967] font-medium w-5/6 mx-auto tracking-tight">Empowering communities of immigrants</h1>
-        <p className="text-[17px] text-black w-3/5 mx-auto">Empowering Immigrants Together to build opportunity, belonging, and community. Together we can open doors to new possibilities and perspectives </p>
+        <h1 className="font-abhayaLibre text-[58px] lg:text-[72px] leading-[54px] lg:leading-[66px] pb-3 text-[#1E2967] font-medium w-5/6 mx-auto tracking-tight">Changing communities, fostering connections</h1>
+        <p className="text-[17px] text-black w-full lg:w-3/5 mx-auto">Empowering Immigrants Together to build opportunity, belonging, and community. Together we can open doors to new possibilities and perspectives </p>
         <div className="flex mx-auto justify-center items-center pt-16 gap-16">
           <Link className="bg-orange-200 text-orange-900 w-[160px] py-3 cursor-pointer hover:bg-gradient-to-r from-[#FFCB65] to-orange-200 hover:border border-orange-800" href="https://docs.google.com/forms/d/e/1FAIpQLSfAoEZe_riGin-eDTFHBjNm4d2RffZ7NJu2XjfCOgS_UP1-Zw/viewform">Volunteer</Link>
           <Link className="border border-orange-900 w-[160px] py-3 font-semibold cursor-pointer hover:bg-gray-100 text-black" href="https://docs.google.com/forms/d/1WdCVpyHLzoZALflsTOTDecRF6d0hEnTxkbiH2BHqXM8/viewform?edit_requested=true">Immigrants</Link>
@@ -73,7 +73,7 @@ export default function Home() {
         <p className="text-[17px] text-black w-3/5 mx-auto"> We are a student-led nonprofit organization dedicated to empowering immigrants and newcomers in the U.S., through mentorship, skill-building, and community support. </p> */}
         <p className="text-[28px] text-black w-8/12 lg:w-4/5 mx-auto"> We are a student-led nonprofit organization dedicated to empowering immigrants and newcomers in the U.S., through mentorship, skill-building, and community support. </p>
         <div>
-          <div className="text-center justify-center items-center flex flex-col pt-24 mx-auto gap-16 ">
+          <div className="flex text-center justify-center items-center flex-col md:flex-row pt-24 mx-auto gap-16 ">
             <div className="size-52 text-center flex flex-col gap-4 p-6 bg-orange-100 border-orange-900 border">
               <ArchiveRestore className="mx-auto size-[45px] bg-white"/>
               <div>
@@ -161,13 +161,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="justify-center items-center mx-auto bg-orange-100 px-20 lg:px-52 py-20 text-center">
-         <h2 className="font-abhayaLibre text-[40px] leading-[44px] pb-3 text-[#1E2967] w-4/5 font-medium mx-auto tracking-tight">"As a newcomer to the U.S., the nonprofit's website was a lifesaver. The one-on-one sessions provided essential guidance on everything from education to culture to just getting situated in this country. Thanks to their support,  I quickly found my footing and felt at home much sooner than I expected."</h2>
+      <div className="justify-center items-center mx-auto bg-orange-100 lg:px-52 py-20 text-center">
+         <h2 className="font-abhayaLibre text-[28px] lg:text-[40px] leading-[32px] lg:leading-[44px] pb-3 text-[#1E2967] w-4/5 font-medium mx-auto tracking-tight">"As a newcomer to the U.S., the nonprofit's website was a lifesaver. The one-on-one sessions provided essential guidance on everything from education to culture to just getting situated in this country. Thanks to their support,  I quickly found my footing and felt at home much sooner than I expected."</h2>
           <p className="text-[17px] text-black w-3/5 mx-auto">- Sally Gomez</p>
       </div>
-      <div className="justify-center items-center mx-auto px-20 py-20 text-center">
-          <h2 className="font-abhayaLibre text-[60px] leading-[60px] pb-4 text-[#1E2967] w-4/5 font-medium mx-auto tracking-tighter">Make a difference within communities today!</h2>
-          <p className="text-[17px] text-black w-2/5 mx-auto">Join us in our mission to foster belonging by making newcomers feel at home</p>
+      <div className="justify-center items-center mx-auto px-4 lg:px-20 py-20 text-center">
+          <h2 className="font-abhayaLibre text-[48px] lg:text-[60px] leading-[50px] lg:leading-[60px] pb-4 text-[#1E2967] w-4/5 font-medium mx-auto tracking-tighter">Make a difference within communities today!</h2>
+          <p className="text-[17px] text-black w-4/5 lg:w-2/5 mx-auto">Join us in our mission to foster belonging by making newcomers feel at home</p>
           <div className="hover:border border-orange-900 bg-orange-200 cursor-pointer text-orange-900 w-[150px] p-2 mx-auto mt-6"> Join Us</div>
         </div>
     </div>
