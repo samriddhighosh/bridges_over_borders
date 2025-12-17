@@ -6,7 +6,9 @@ const ChapterPage = () => {
     <div className="flex flex-col gap-12 justify-center items-center mx-auto font-onest bg-white text-black">
       <Navbar/>
       <div className="text-center items-center w-3/4 py-32 bg-white">
-        <p className='text-[15px] font-semibold pb-3'>Our Chapers</p>
+        <p className='mx-auto text-[15px] font-semibold mb-3 border-b w-[100px] border-b-pink-200'>
+          Our Chapters
+        </p>
         <h1 className="font-abhayaLibre text-[72px] leading-[66px] pb-3 text-[#1E2967] font-medium w-3/4 mx-auto tracking-tight">Start your own chapter</h1>
         <p className="text-[17px] text-black w-3/5 mx-auto"> Create a space for immigrants, newcomers, and volunteers to connect, learn, and grow together. Chapter teams organize events, host workshops, and expand the mission of Bridges & Bonds across regions.
 

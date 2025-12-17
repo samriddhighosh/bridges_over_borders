@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar'
+import Link from 'next/link'
 import React from 'react'
 
 const ContactPage = () => {
@@ -10,8 +11,8 @@ const ContactPage = () => {
         <p className="text-[17px] text-black w-3/5 mx-auto"> Each day features a different focus, Financial Literacy, Legal Information, Mental Health, Cultural Integration, Education & Skill Building, Employment Readiness.
  </p>
         <div className="flex mx-auto justify-center items-center pt-16 gap-16">
-          <p className="bg-[#FFCB65] w-[160px] py-3 text-white font-semibold cursor-pointer hover:bg-gradient-to-r from-[#FFCB65] to-orange-200">Sign Up</p>
-          <p className="border border-black w-[160px] py-3 font-semibold cursor-pointer hover:bg-gray-100 text-black">See more</p>
+          <Link className="bg-orange-200 text-orange-900 w-[160px] py-3 cursor-pointer hover:bg-gradient-to-r from-[#FFCB65] to-orange-200 hover:border border-orange-800" href="">Contact Us</Link>
+          <Link href="https://linktr.ee/bridgesandbondss?utm_source=linktree_profile_share&ltsid=35fdcfb7-0a09-4969-aad6-3924eef1c0ca" className="border border-black w-[160px] py-3 font-semibold cursor-pointer hover:bg-gray-100 text-black">See more</Link>
         </div>
         
       </div>

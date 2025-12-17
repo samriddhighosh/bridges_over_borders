@@ -6,9 +6,14 @@ const page = () => {
   return (
     <div className="flex flex-col gap-20 justify-center items-center mx-auto font-onest bg-white text-black">
       <Navbar/>
-      <div className="text-center items-center w-3/4 py-36 bg-white">
-        <h1 className="font-abhayaLibre text-[72px] leading-[66px] pb-8 text-[#1E2967] font-medium w-3/5 mx-auto tracking-tight">What is Bridges and Bonds?</h1>
-        <p className="text-[17px] bg-[#FFCB65] py-2 w-[160px] border border-orange-300 text-white font-semibold cursor-pointer hover:bg-gradient-to-r from-[#FFCB65] to-orange-200 mx-auto">Try now</p>
+      <div className="text-center items-center w-3/4 py-12 bg-white">
+        <p className='mx-auto text-[15px] font-semibold mb-6 border-b w-[100px] border-b-[#FFCB65]'>
+          About Us
+        </p>
+        <h1 className="font-abhayaLibre text-[72px] leading-[66px] pb-4 text-[#1E2967] font-medium w-3/5 mx-auto tracking-tight">What is Bridges and Bonds?</h1>
+        <p className="text-[17px] text-black w-3/5 mx-auto pb-12"> Bridges & Bonds is a student-led nonprofit organization dedicated to empowering immigrants and newcomers in the U.S., through mentorship, skill-building, and community support. We also aim to combat post migration loneliness, isolation, and alienation through cultural, mental, and adaptation support.
+</p>
+        <p className="bg-orange-200 text-orange-900 w-[160px] py-3 cursor-pointer hover:bg-gradient-to-r from-[#FFCB65] to-orange-200 hover:border border-orange-800 mx-auto">Try now</p>
       </div>
       <div className="flex flex-col gap-10">
           <div className="flex gap-10 justify-center items-center text-center px-20">
@@ -38,7 +43,7 @@ const page = () => {
             </div>
           </div>
           </div>
-      <div className='flex gap-8 h-screen px-28 w-full justify-center items-center'>
+      <div className='flex gap-8 px-28 w-full justify-center items-center'>
         <div className='w-3/5'>
           <div className='p-2 w-[130px] rounded-full flex gap-1 items-center justify-center text-orange-400'>
             <PersonStanding/>
