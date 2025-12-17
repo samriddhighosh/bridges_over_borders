@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${onest.variable} ${abhayaLibre.variable} antialiased`}
+        className={`${onest.variable} ${abhayaLibre.variable} antialiased bg-white`}
       >
         {children}
       </body>

@@ -78,15 +78,15 @@ export default function Home() {
               <ArchiveRestore className="mx-auto size-[45px] bg-white"/>
               <div>
                 <h2 className="text-[32px] leading-[34px] font-semibold pb-1">1000+</h2>
-                <p className="text-[16px] leading-[22px]">communities impacted</p>
+                <p className="text-[16px] leading-[22px]">immigrants impacted</p>
               </div>
               
             </div>
             <div className="size-52 text-center flex flex-col gap-4 p-6 bg-white border-orange-900 border">
               <ArchiveRestore className="mx-auto size-[45px] bg-white"/>
               <div>
-                <h2 className="text-[32px] leading-[34px] font-semibold pb-1">1000+</h2>
-                <p className="text-[16px] leading-[22px]">communities impacted</p>
+                <h2 className="text-[32px] leading-[34px] font-semibold pb-1">10+</h2>
+                <p className="text-[16px] leading-[22px]">countries helped</p>
               </div>
               
             </div>
@@ -162,7 +162,7 @@ export default function Home() {
         </div>
       </div>
       <div className="justify-center items-center mx-auto bg-orange-100 px-20 lg:px-52 py-20 text-center">
-         <h2 className="font-abhayaLibre text-[40px] leading-[44px] pb-3 text-[#1E2967] w-4/5 font-medium mx-auto tracking-tight">"This hhas helped me improve so much!"</h2>
+         <h2 className="font-abhayaLibre text-[40px] leading-[44px] pb-3 text-[#1E2967] w-4/5 font-medium mx-auto tracking-tight">"As a newcomer to the U.S., the nonprofit's website was a lifesaver. The one-on-one sessions provided essential guidance on everything from education to culture to just getting situated in this country. Thanks to their support,  I quickly found my footing and felt at home much sooner than I expected."</h2>
           <p className="text-[17px] text-black w-3/5 mx-auto">- Sally Gomez</p>
       </div>
       <div className="justify-center items-center mx-auto px-20 py-20 text-center">
