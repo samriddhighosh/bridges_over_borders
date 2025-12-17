@@ -72,11 +72,11 @@ const MobileNavHeader = () => {
 
                 {/* --- Desktop Navigation (Hidden on small screens) --- */}
                 <div className='hidden sm:flex items-center gap-8 text-black'>
-                    <Link href="/"><span className="hover:text-secondary-purple">Mission</span></Link>
-                    <Link href="/about"><span className="hover:text-secondary-purple">About</span></Link>
-                    <Link href="/contact"><span className="hover:text-secondary-purple">Contact</span></Link>
-                    <Link href="/programs"><span className="hover:text-secondary-purple">Programs</span></Link>
-                    <Link href="/chapter"><span className="hover:text-secondary-purple">Chapter</span></Link>
+                    <Link href="/"><span className="hover:text-[#f5b942] hover:border-b border-b-orange-800">Mission</span></Link>
+                    <Link href="/about"><span className="hover:text-[#f5b942] hover:border-b border-b-orange-800">About</span></Link>
+                    <Link href="/contact"><span className="hover:text-[#f5b942] hover:border-b border-b-orange-800">Contact</span></Link>
+                    <Link href="/programs"><span className="hover:text-[#f5b942] hover:border-b border-b-orange-800">Programs</span></Link>
+                    <Link href="/chapter"><span className="hover:text-[#f5b942] hover:border-b border-b-orange-800">Chapter</span></Link>
                 </div>
             </nav>
 
